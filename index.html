@@ -1,52 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>ShokulSet</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="src/assets/tsu.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="src/css/styles.css" rel="stylesheet" />
-        <!-- Background image -->
-        <div style="background-image: url(/src/assets/);"></div>
-        <!-- Background image -->
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand">About me</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="/pdf/port.pdf" target="_blank">My Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/ShokulSet" target="_blank">Github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sh0kul/" target="_blank">Instagram</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/settapun.laoaree/" target="_blank">Facebook</a></li>
-                    </ul>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" type="image/x-icon" href="assests/head/tsu.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="shokul.css">
+    <script defer src="shokul.js"></script>
+    <title>ShokulSet</title>
+
+</head>
+<body class="background">
+<!-- NAV -->
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" style="margin-left: 2vw;"><b>#ShokulSet</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#TOP">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#SKILL">Skill</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#ACTIVITY">Activity</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#PROJECT">Project</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#CONTACT">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- INFO -->
+<section class="hidden" id="NAME" style="margin-top: 15vh;">
+  <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12 col-md-5 section-img-container">
+          <img src="assests/head/Me.jpg" class="rounded img-fluid original-image" style="max-width: 100%;height: auto;">
+        </div>
+        <div class="col-sm-12 col-md-7">
+              <br>
+              <br>
+              <h1 class="text-start fs-1 fw-bold">Settapun Laoaree</h1>
+              <p class="text-start fs-4 text-break">
+                  Welcome to my resume website! My name is Settapun Laoaree,
+                  you can call me Shokul. Currently, I am studying in Digital Engineering major at 
+                  <a href="https://home.spsm.ac.th/en/home-english/" class="text-link card-text" target="_blank">Satit Demonstration School Prasarnmit</a>.
+                  I am delighted that you have taken the time to visit my page, where you will find my work and contact
+                  listed below. Thank you for stopping by.
+              </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- SKILL -->
+<p id="SKILL" class="anchor"></p>
+<section class="hidden">
+    <h1><b>SKILL</b></h1>
+    <div class="container text-center" style="margin-top: 10vh;">
+        <div class="row">
+          <div class="col justify-content-center card-holder">
+            <img src="assests/skill/programming.jpg" alt=" " class="bd-placeholder-img rounded-circle " width="140 " height="140 " role="img " />
+            <h2 class="fw-normal" style="margin-top: 10px">Programming</h2>
+            <p class="container-skill-text">I know Python, C, C++, Bash, most of basic programing principle. Also currently learn more about AI and Web develepment.</p>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <img src="assests/skill/ai.png" alt=" " class="bd-placeholder-img rounded-circle " width="140 " height="140 " role="img " />
+            <h2 class="fw-normal " style="margin-top: 10px">Robotic</h2>
+            <p>I can work around microcontroller and circuit like Arduino or Raspberry Pi for my project.</p>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <img src="assests/skill/editing.png" alt=" " class="bd-placeholder-img rounded-circle " width="140 " height="140 " role="img " />
+            <h2 class="fw-normal" style="margin-top: 10px">Video Editing</h2>
+            <p>I edited my video for my <a href="https://www.youtube.com/@sh0kul173" target="_blank" class="youtubelink">Youtube</a> channel. Make sure to check out my work, I worked hard on it!</p>
+        </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- ACTIVITY -->
+<p id="ACTIVITY" class="anchor"></p>
+<p id="ACTIVITY"></p>
+<section class="hidden">
+    <h1><b>ACTIVITY</b></h1>
+    <div class="container text-center" style="margin-top: 10vh;">
+        <div class="row">
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/activity/KIBO2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <b>KIBO RPC 2021 : International Champion</b>
+                  <p class="card-text">
+                    This competition was organized by JAXA in cooperation with NASA. In this competition, we have to program the Astrobee robot to do the given mission by using JAVA language and image processing, and math skills. We can proceed to the last round which our code was run in the real ISS station and won the international championship.
+                  </p>
+                  <a href="https://www.youtube.com/live/eDXf1ISUBmA?feature=share&t=1432" class="text-link card-text" target="_blank"> Running in ISS Video</a>
                 </div>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <section>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-6">
-                        <h1 class="mt-5">Hello world</h1>
-                        <p>Welcome to my website! My name is Settapun Laoaree, but you can call me Shokul.
-                             Currently, I am in Digital Engineering major at Satit Demonstration School Prasarnmit.
-                              I am delighted that you have taken the time to visit my website, where you will find my portfolio
-                               and contract listed below. Thank you for stopping by.</p>
-                    </div>
+              </div>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/activity/KIBO3.png" class="card-img-top">
+                <div class="card-body">
+                  <b>KIBO RPC 2022 : Ranked 21 national round</b>
+                  <p class="card-text">
+                    Same concept as the last year, but the rule and mission are changed. This year our team can go through the preliminary round among 197 teams ranked at 21 in the national round.
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=IFsI893jCBA" class="text-link card-text" target="_blank"> Team Presentation Video</a>
                 </div>
+              </div>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/activity/WRG.jpg" class="card-img-top">
+                <div class="card-body">
+                  <b>WRG AI Self Driving Car 2021 : Gold Medal</b>
+                  <p class="card-text">
+                    The competition requires participants to design a self-driving robot with only camera as input, utilizing image processing to track the road and avoid obstacles. Success requires an effective application of image processing algorithms and a strong understanding of computer vision.
+                  </p>
+                  <a href="https://youtu.be/biqAx6r7GDE" class="text-link card-text" target="_blank"> Participation Video</a>
+                </div>
+              </div>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/activity/ROBOCUP.JPG" class="card-img-top">
+                <div class="card-body">
+                  <b>RMRC Robocup Thailand 2022</b>
+                  <p class="card-text">
+                    In this competition, participants must design a remote-controlled rescue robot that can operate in harsh environments and complete a series of tasks in a simulated disaster scenario. Additionally, the robot must be trained with AI to classify various signs as part of the challenge.
+                  </p>
+                  <a href="https://github.com/HelloWorld21TH/RoboCUP2022" class="text-link card-text" target="_blank"> Source Code    </a>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="src/js/scripts.js"></script>
-    </body>
+        </div>
+      </div>
+</section>
+
+<!-- PROJECT -->
+<p id="PROJECT" class="anchor"></p>
+<section class="hidden">
+    <h1><b>PROJECT</b></h1>
+    <p>Here are some of my work, and if you'd like to see more, feel free to check out my <a href="https://github.com/ShokulSet" class="text-link card-text" target="_blank">Github</a> repository.</p>
+    <div class="container text-center" style="margin-top: 10vh;">
+        <div class="row">
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/Project/Chomusuke.PNG" class="card-img-top">
+                <div class="card-body">
+                  <b>Chomusuke : Discord Bot</b>
+                  <p class="card-text">
+                    This bot is created to log the activity of users in voice channels, with the option of excluding the secret channel. Additionally, she's a cute cat.                  </p>
+                  <a href="https://discord.com/api/oauth2/authorize?client_id=1059816482701316096&permissions=8590461952&scope=bot" class="text-link card-text" target="_blank">Test it out!</a>
+                </div>
+              </div>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/Project/web.PNG" class="card-img-top">
+                <div class="card-body">
+                  <b>My resume webpage</b>
+                  <p class="card-text">
+                      One of my project during 42Bangkok in Discovery Piscine. Is to create a resume website with my partner.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="col justify-content-center card-holder">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img src="assests/Project/CoolPrint.gif" class="card-img-top">
+                <div class="card-body">
+                  <b>CoolPrint.c</b>
+                  <p class="card-text">
+                      Print but Softer, Worse, Slower, Weaker. But it's cool, what's the matter?
+                  </p>
+                  <a href="https://github.com/ShokulSet/CoolPrint.c" class="text-link card-text" target="_blank">Repository</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+</section>
+
+<!-- CONTACT -->
+<p id="CONTACT" class="anchor"></p>
+<section class="hidden">
+    <h1><b>CONTACT</b></h1>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-2"></div>
+          <p class="col-8">Let's connect! You can reach me through various channels such as 
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">email</span>, 
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">call</span> and
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">Discord</span>.I'm also active on 
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">Instagram</span> and 
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">Line</span>. However, most of my work can be found on 
+            <span class="special-text" onmouseover="replaceText(event)" onmouseout="restoreText(event)">Github</span>.
+          </p>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <div class="row" style="display: flex;">
+        <div class="col-3"></div>
+        <div class="col-3"><p>Email : Settapun.work@gmail.com</p></div>
+        <div class="col-3"><p>Line : <a href="https://line.me/ti/p/GW2It0YVE9" class="text-link card-text" target="_blank">@shokul49</a></p></div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row" style="display: flex;">
+        <div class="col-3"></div>
+        <div class="col-3"><p>Call : 090-919-6441</p></div>
+        <div class="col-3"> <p>Instagram : <a href="https://www.instagram.com/sh0kul/" class="text-link card-text" target="_blank">@sh0kul</a></p></div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row" style="display: flex;">
+        <div class="col-3"></div>
+        <div class="col-3"><p>Discord : Shokul#3557</p></div>
+        <div class="col-3"><p>Github :   <a href="https://github.com/ShokulSet/" class="text-link card-text" target="_blank">ShokulSet</a></p></div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+</section>      
+
+</body>
 </html>

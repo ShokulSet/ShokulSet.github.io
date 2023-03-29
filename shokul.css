@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card-holder{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+section{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    align-content: center;
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.background{
+    background: linear-gradient(to right, #000428, #002a50);
+    size: 100%;
+}
+
+.content{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+.container-skill{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+.text-link{
+    color: 	rgb(239, 149, 15); 
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.text-link:hover{
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.youtubelink{
+    color: 	rgb(255,163,26); 
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.youtubelink:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
+.hidden{
+    opacity: 0;
+    transition: 2.5s;
+}
+
+.show{
+    opacity: 1;
+    transition: 2.5s;
+}
+
+.special-text{
+    color: 	rgb(255,163,26); 
+    transition: 0.5s;
+}
+
+.special-text:hover {
+    color: rgb(214, 133, 255);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
+
+.section-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.anchor{
+    padding-top: 30px; 
+}
